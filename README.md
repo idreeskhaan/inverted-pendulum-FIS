@@ -1,6 +1,5 @@
 # inverted-pendulum-FIS
 
-<<<<<<< HEAD
 <p>Inverted pendulum is an important topic in mechatronics engineering. An inverted pendulum
 is an upright mass connected by a rod. The inverted pendulum can lose stability very easily and
 therefore; an external force must be applied to keep it stable. The amount of external force must
