@@ -26,5 +26,9 @@ Convertor for the system. The linguistic variables of interest are the cart posi
 <img src="linguisticVariables.PNG"> </img>
 
 
+## Simulink Model
+<p>The Simulink model is built by using multiple blocks like integrator, gain, MATLAB function, constant and mux etc. The system mechanical model is implemented using the blocks while the quantities N and P are computed using a MATLAB functions. Finally, a Fuzzy Logic Controller is placed to close the feedback loop. The input to the Fuzzy Logic Controller is the Pendulum angle, angular velocity, cart position and cart linear velocity. The output of the Controller is the Force applied to the cart.</p>
+<img src="simulinkModel.PNG"></img>
+
 ## Cart Position and Velocity
 <img src="results.png"> </img>
