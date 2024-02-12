@@ -23,7 +23,14 @@ functions. A schematic of inverted pendulum with a movable cart is shown below:<
 ## Linguistic Varibles
 <p>Once the mathematical model is evaluated, the next step is to develop the Fuzzy Logic
 Convertor for the system. The linguistic variables of interest are the cart position, cart velocity, the tilt angle and the tilt angular velocity. The output variable of the Fuzzy Logic controller is the Force applied on the cart.</p>
-<img src="linguisticVariables.PNG"> </img>
+
+| S.No     | Lingusitic Var   |  Type    |  Unit   | Range      |
+| -------- | -------          |  ------- | ------- | -------    |     
+| 1        | Tilt Angle       |   Input  |   rad   | [-pi pi]   |
+| 2        | Tilt Velocity    |   Input  |  rad/s  |  [-5 5]    |
+| 3        | Cart Position    |   Input  |   m     | [-5 5]     |
+| 4        | Cart Velocity    |   Input  |   m/s   | [-0.5 0.5] |
+| 5        | Actuation Force  |   Output |  newton | [-20 20]   |
 
 
 ## Simulink Model
