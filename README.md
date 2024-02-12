@@ -1,3 +1,3 @@
 # inverted-pendulum-FIS
 
-![results.PNG](results.PNG)
+![results.png](results.png)
