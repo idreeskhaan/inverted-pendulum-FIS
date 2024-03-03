@@ -1,4 +1,4 @@
-# inverted-pendulum-FIS
+# A Robust Fuzzy Logic Controller for Inverted Pendulum Stability
 
 <p>Inverted pendulum is an important topic in mechatronics engineering. An inverted pendulum
 is an upright mass connected by a rod. The inverted pendulum can lose stability very easily and
